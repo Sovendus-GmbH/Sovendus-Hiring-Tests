@@ -1,4 +1,4 @@
-# Developer Skills Test
+# Technical Account Manager Skills Test
 
 This test consists of three tasks designed to assess your abilities in web integration and debugging.
 
