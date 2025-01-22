@@ -8,11 +8,11 @@ You will download this repository based on the provided instructions [here](Task
 
 ## Task 1: Generic Sovendus Web Integration
 
-You will implement the Sovendus Voucher Network Checkout Benefits integration based on provided documentation.
+You will implement the Sovendus Voucher Network Checkout Benefits integration based on [provided documentation](Task1/readme.md).
 
 ## Task 2: Debug a Sovendus Integration
 
-You will debug a sample HTML file to demonstrate your problem-solving skills.
+You will debug a sample HTML file with a broken Sovendus integration, to demonstrate your problem-solving skills. As described [here](Task2/readme.md)
 
 ---
 
