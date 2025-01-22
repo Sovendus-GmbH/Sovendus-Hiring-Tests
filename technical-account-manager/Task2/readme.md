@@ -6,7 +6,7 @@ A partner reports that they finished the integration according to our documentat
 
 Your goal is to figure out what the issue(s) are and provide a proper solution to the partner. You have to craft an email explaining what and how they have to fix it. The receiver is a developer in this case.
 
-In the real world, you would do a test on the partner's website and debug it there. But in our case, you have the `broken-sovendus.html`. Imagine you just did a test purchase **using a Sovendus voucher code**, and then you landed on `broken-sovendus.html`.
+In the real world, you would do a test on the partner's website and debug it there. But in our case, you have the `broken-sovendus.html`. Imagine you just did a test purchase **using a Sovendus voucher code "test-123"**, and then you landed on `broken-sovendus.html`.
 
 ## Related documentation
 
