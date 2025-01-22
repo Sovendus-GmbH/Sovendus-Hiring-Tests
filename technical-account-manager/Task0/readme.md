@@ -8,6 +8,5 @@ Download this repository.
 
 1. Download this repository using git:
 
-   ```sh
-   git clone https://github.com/Sovendus-GmbH/Sovendus-Hiring-Tests.git
+   https://github.com/Sovendus-GmbH/Sovendus-Hiring-Tests
 2. Or download it manually from [here](https://github.com/Sovendus-GmbH/Sovendus-Hiring-Tests).
