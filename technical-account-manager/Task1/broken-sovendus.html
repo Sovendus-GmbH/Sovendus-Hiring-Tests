@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1" />
+</head>
+
+<body>
+    <h1>Example order success page</h1>
+    <h2>I'm an example page where sovendus Voucher Network should be integrated</h2>
+    <h2>Your order data:</h2>
+    <ul>
+
+        <li>Order ID: order-1234</li>
+        <li>Net Order value: 12.5 £</li>
+        <li>Used coupon code: test-123</li>
+    </ul>
+    <h2>Your customer data:</h2>
+    <ul>
+        <li>Salutation: Mr.</li>
+        <li>First name: Name</li>
+        <li>Last name: Lastname</li>
+        <li>Email: my-mail@something.woo</li>
+        <li>Country: United Kingdom</li>
+        <li>Zipcode: PO16 7GZ</li>
+        <li>Phone: 004915512005211</li>
+        <li>Year of birth: 1991</li>
+        <li>Street: 88 test street</li>
+        <li>City: London</li>
+    </ul>
+
+    <script>
+        window.sovIframes = window.sovIframes || [];
+        window.sovIframes.push({
+            trafficSourceNumber: "4704",
+            trafficMediumNumber: "69",
+            sessionId: "session-1234",
+            timestamp: Date.now().toLocaleString(),
+            orderId: "order-1234",
+            orderValue: "12.5",
+            orderCurrency: "£",
+            usedCouponCode: undefined,
+            iframeContainerId: "sovendus-container-1",
+            integrationType: "genericScript-1.3.3",
+        });
+        window.sovConsumer = {
+            consumerSalutation: "Lord",
+            consumerFirstName: "Name",
+            consumerLastName: "Lastname",
+            consumerEmail: "banana@",
+            consumerCountry: "United Kingdom",
+            consumerZipcode: "PO16 7GZ",
+            consumerPhone: "004915512005211",
+            consumerYearOfBirth: 1991,
+            consumerStreet: "88",
+            consumerStreetNumber: "test street",
+            consumerCity: "London",
+        };
+
+        var sovendusScript = document.createElement("div");
+        sovendusScript.type = "javascript";
+        sovendusScript.async = true;
+        sovendusScript.src = "https://i-am-for-sure-not-an-api/sovabo/common/js/flexibleIframe.js"
+        document.appendChild(sovendusScript);
+    </script
+
+    <h2>Right below should be the Sovendus banner</h2>
+
+    <div id="sovendus-container-88"></div>
+
+    <h2>Right above should be the Sovendus banner</h2>
+
+</body>
+
+</html>
